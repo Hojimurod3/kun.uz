@@ -10,6 +10,5 @@ if response.status_code == 200:
     for article in articles[:10]:
         title = article.find('p', class_="news-title").text
         time = article.find('p', class_="news-date").text
-        print("Title:", title)
-        print("Time:", time)
-        print("-" * 80)
+        print("Title:", title\n"Time:", time\n"-" * 80)
+        
